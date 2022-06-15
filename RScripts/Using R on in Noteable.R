@@ -15,7 +15,7 @@
 #We are going to name each collection of data, and then perform a numerical operation to calculate BMI. 
 #In this example we conduct an analysis that is analogous to working in a spreadsheet.
 
-Height <- c(1.6, 1.8, 2.0, 2.5) # height data in m
+Height <- c(1.4, 1.8, 2.3, 2.5) # height data in m
 Weight <- c(50, 60, 64, 95)     # weight data in kg
 BMI <-   Weight/(Height^2)      # BMI
 cbind(Height , Weight, BMI) # column bind, like spreadsheet
