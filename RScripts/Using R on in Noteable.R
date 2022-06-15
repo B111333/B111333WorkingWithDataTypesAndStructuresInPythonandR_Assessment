@@ -7,7 +7,7 @@
 
 #Here is an example of using R as a calculator to perform a numerical operation. 
 
-(3 + 7)^2 - 1*10/4
+(20+ 7)^2 - 1*5/4
 
 
 #Here we are going to use the c function to collect data entered at the console.
