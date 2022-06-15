@@ -20,7 +20,6 @@ Weight <- c(50, 60, 64, 95)     # weight data in kg
 BMI <-   Weight/(Height^2)      # BMI
 cbind(Height , Weight, BMI) # column bind, like spreadsheet
 
-  
 #Using 'readr' from 'tidyverse' to write the BMI data to file
 #'tidyverse' is a collection of essential R packages for data science.
 #'readr' provides a fast and friendly way to read rectangular data from delimited files, such as comma-separated values (CSV) and tab-separated values (TSV). 
@@ -32,5 +31,6 @@ library(readr)
 Data<-data.frame(cbind(Height , Weight, BMI))
 view(Data)
 head(Data)
+#Saving the BMI data to the working data folder
 write_csv(Data, file="./Data/BMIData.csv")
 
